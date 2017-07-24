@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-import re
 import scrapy
 from report_crawler.spiders.__Global_function import get_localtime
 from report_crawler.spiders.__Global_variable import now_time, end_time

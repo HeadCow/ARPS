@@ -3,6 +3,7 @@ import scrapy
 from report_crawler.spiders.__Global_function import get_localtime
 from report_crawler.spiders.__Global_variable import now_time, end_time
 
+
 class CSU001_Spider(scrapy.Spider):
 	name = 'CSU001'
 	start_urls = ['http://sise.csu.edu.cn/index/xsxx.htm']
